@@ -1,0 +1,23 @@
+# Lista de Tarefas: Template Chat LLM Assíncrono
+
+- [X] 001: Criar template Flask assíncrono para chat LLM.
+  - [X] 001a: Adaptar o backend Flask para funcionamento assíncrono (e.g., usando Quart ou Flask com asyncio).
+  - [X] 001b: Criar endpoints para o chat (e.g., `/chat` para enviar mensagens e receber respostas).
+  - [X] 001c: Definir uma estrutura/interface para integração flexível de diferentes modelos LLM.
+- [X] 002: Criar frontend de chat responsivo integrado ao backend.
+  - [X] 002a: Desenvolver a interface do chat (HTML, CSS, JavaScript).
+  - [X] 002b: Garantir responsividade para diferentes tamanhos de tela.
+  - [X] 002c: Integrar o frontend com os endpoints do backend.
+- [X] 003: Documentar configuração para troca de modelo LLM.
+  - [X] 003a: Criar um arquivo de documentação (e.g., README.md) explicando como configurar e trocar o modelo LLM.
+- [X] 004: Validar funcionamento assíncrono e múltipla requisição.
+  - [X] 004a: Criar testes para simular múltiplas requisições simultâneas.
+  - [X] 004b: Verificar se o servidor processa as requisições em paralelo sem bloqueios.
+- [X] 005: Gerar `requirements.txt` e testar localmente.
+  - [X] 005a: Ativar o ambiente virtual e gerar o `requirements.txt` com `pip freeze`.
+  - [X] 005b: Executar o servidor localmente e testar a funcionalidade do chat.
+- [X] 006: Reportar e enviar template ao usuário.
+  - [X] 006a: Preparar os arquivos do template para envio.
+  - [X] 006b: Enviar uma mensagem ao usuário com os resultados e os arquivos anexados.
+- [X] 007: remover_venv_do_zip_e_reenviar_template()
+- [X] 008: notificar_usuario_com_zip_limpo()
